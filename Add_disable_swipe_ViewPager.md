@@ -1,0 +1,1 @@
+http://baroqueworksdev.blogspot.tw/2014/02/add-disable-swipe-to-viewpager.html

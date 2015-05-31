@@ -1,0 +1,1 @@
+http://www.patrickintw.com/blog/splash_screen

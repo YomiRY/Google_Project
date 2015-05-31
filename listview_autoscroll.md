@@ -1,0 +1,1 @@
+http://blog.jpardogo.com/autoscroll-a-listview-with-listviewautoscrollhelper/

@@ -1,0 +1,1 @@
+http://lechmigdal.blogspot.tw/2012/09/easy-swipe-handling-on-android.html

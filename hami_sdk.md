@@ -1,0 +1,1 @@
+http://amindon.blogspot.tw/2010/09/hami-app.html

@@ -1,0 +1,1 @@
+http://www.app-solut.com/blog/2011/05/using-self-defined-parcelable-objects-during-an-android-aidl-rpc-ipc-call/

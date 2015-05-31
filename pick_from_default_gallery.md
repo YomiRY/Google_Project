@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/7685758/android-choose-pictures-from-default-gallery

@@ -1,0 +1,14 @@
+Q1:is onTrimMemory(TRIM\_MEMORY\_UI\_HIDDEN) called right after the onStop()?<br />
+
+Ans:<br />
+onTrimMemory with TRIM\_MEMORY\_UI\_HIDDEN level is actually called <br />before onStop. When onStop is called, it means the activity is really <br />stopping, and the Android OS might kill it right away if it needs to, <br />so you should not expect any more calls to that activity's callbacks <br />aftet that, except for onRestart and sometimes onDestroy.<br />
+
+Q2:what "release your UI resources" means in that context? just for instance <br />clean the Bitmap cache, or actually remove and destroy every View in <br />the View tree? i usually destroy the Views in the onDestroy() or <br />onDestroyView() methods, i am now wondering if i'm doing it right.?<br />
+
+Ans:<br />
+"release your UI resources" is actually about things like caches. You <br />usually don't have to worry about managing views or UI components <br />because the OS already does that, and that's why there are all those <br />callbacks for creating, starting, pausing, stopping and destroying an <br />activity. However, sometimes to improve performance you have to <br />increase memory usage, such as caching some data used by your <br />activities. That's the type of resource you should release when <br />onTrimMemory is called, so your app uses less memory, even if it <br />affects performance. You should worry about memory leaks though. If <br />your activity stops, be sure not to keep any references to its views, <br />because that would keep the activity from being garbage collected, <br />which would keep the whole context from being collected, and that's <br />bad, mostly if you want to keep your app running for hours or days <br />(like when you implement services).<br /><br />
+
+Q3:is there a Twin/correspondent callback to <br />onTrimMemory(TRIM\_MEMORY\_UI\_HIDDEN)? like onCreate-onDestroy, <br />onStart-onStop, onCreateView-onDestroyView. I'am asking to undestand <br />where and how i should restore the UI state after an <br />Activity/Fragment as been brought in FG after <br />onTrimMemory(TRIM\_MEMORY\_UI\_HIDDEN) has been called?<br />
+
+Ans:<br />
+No, there's no correspondent callback to onTrimMemory. However, you <br />shouldn't need one. As I said before, if you keep a cache of some <br />resources to improve performance, just empty that, and let it grow <br />again if it needs to. If memory level keeps low, onTrimMemory may be <br />called again soon, with that same memory level. By the way, keep in <br />mind that onTrimMemory will be called with several different memory <br />levels, not just TRIM\_MEMORY\_UI\_HIDDEN.<br /><br />

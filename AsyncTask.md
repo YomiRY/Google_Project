@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/10480685/use-asynctask-in-remote-services

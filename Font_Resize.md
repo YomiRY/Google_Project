@@ -1,0 +1,1 @@
+http://raykuhnell.com/2013/07/09/dynamic-font-size-and-other-styles-in-an-android-app/

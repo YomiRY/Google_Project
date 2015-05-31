@@ -1,0 +1,1 @@
+http://www.androiddesignpatterns.com/2013/08/binders-death-recipients.html

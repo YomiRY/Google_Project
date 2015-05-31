@@ -1,0 +1,1 @@
+http://milkmidi.blogspot.tw/2013/05/android-custom-dialog.html<br />

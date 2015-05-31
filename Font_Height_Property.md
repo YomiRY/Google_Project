@@ -1,0 +1,1 @@
+http://jyhshin.pixnet.net/blog/post/37074598-android-get-text-height
