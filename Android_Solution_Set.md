@@ -117,4 +117,10 @@ http://stackoverflow.com/questions/5702502/how-to-always-show-scrollbar<br>
 <br>
 23.Making TextView Scrollable in Android<br>
 http://stackoverflow.com/questions/1748977/making-textview-scrollable-in-android<br>
+24.Performance Tuning
+http://blog.venmo.com/hf2t3h4x98p5e13z82pl8j66ngcmry/performance-tuning-on-android
+http://lucasr.org/2012/04/05/performance-tips-for-androids-listview/
+http://www.vogella.com/tutorials/AndroidTools/article.html
+http://leftshift.io/6-ways-to-make-your-lists-scroll-faster-than-the-wind
+http://stackoverflow.com/questions/12406672/hardware-accelerating-in-listview
 </pre>
