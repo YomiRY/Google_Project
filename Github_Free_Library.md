@@ -33,6 +33,7 @@
 <a href='http://www.programering.com/a/MzM3MTMwATE.html'>http://www.programering.com/a/MzM3MTMwATE.html</a><br />
 <a href='https://github.com/Trinea/android-open-project/tree/master/English%20Version'>https://github.com/Trinea/android-open-project/tree/master/English%20Version</a><br />
 </blockquote><blockquote><a href='https://github.com/bayandin/awesome-awesomeness'>https://github.com/bayandin/awesome-awesomeness</a><br />
+</blockquote><blockquote><a href='https://github.com/snowdream/awesome-android'>https://github.com/snowdream/awesome-android</a><br />
 <li>iOS UI Libraries collection</li>
 </blockquote><blockquote><a href='http://dailytekk.com/2014/02/20/100-great-resources-for-ios-developers/'>http://dailytekk.com/2014/02/20/100-great-resources-for-ios-developers/</a><br />
 <a href='http://dailytekk.com/2014/02/20/100-great-resources-for-ios-developers/'>http://dailytekk.com/2014/02/20/100-great-resources-for-ios-developers/</a>
